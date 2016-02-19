@@ -9,10 +9,10 @@ Without it, the server would reject any communication attempt.
 
 To start the client type
 
-$ python SSLclient.py -s „Your_Serveraddress“ -p „PortNumber“-c server.pem
+$ python SSLPiclient.py -s „Your_Serveraddress“ -p „PortNumber“-c server.pem
 
 The command and options are
-     $ python SSLclient.py [Option] 
+     $ python SSLPiclient.py [Option] 
       with [Option] 
        -s Server    IP address or Domain Name 
        -p port      Port Number
@@ -26,5 +26,5 @@ if now options are specified the programm will take following default values:
 -c CertFile = 'server.pem'
 An example for a typical call:
 
- $ python SSLclient.py -s iot4pi.com -p 10023 -c server.pem
+ $ python SSLPiclient.py -s iot4pi.com -p 10023 -c server.pem
   
